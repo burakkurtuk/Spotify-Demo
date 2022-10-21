@@ -39,14 +39,14 @@ public class HomePage extends BaseFunctions{
     private WebElement usernameBox;
 
     public void username(){
-//        type(usernameBox,"+FAKER");
+        type(usernameBox,"FAKER");
     }
 
     @FindBy(css = "input[type='password']")
     private WebElement passwordBox;
 
     public void password(){
-//    type(passwordBox,"FAKER");
+    type(passwordBox,"FAKER");
 
     }
 
@@ -118,9 +118,6 @@ public class HomePage extends BaseFunctions{
     @FindBy(xpath = "(//div[@class='Type__TypeElement-goli3j-0 gwYBEX t_yrXoUO3qGsJS4Y6iXX standalone-ellipsis-one-line'])[1]")
     private WebElement likedSongElement;
 
-    public void likedSong(){
-        Assertion(likedSongElement,"BILLIE EILISH.");
-    }
 
 
 }
